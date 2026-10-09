@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+</head>
+<body>
+
+    <h2>1. ¿Cuánto es 1+1?</h2>
+    <input type="number" id="respuesta1">
+
+    <h2>2. ¿Cuál es la capital de Bolivia?</h2>
+    <input type="text" id="respuesta2">
+
+    <h2>3. ¿Cuál es un lenguaje de programación?</h2>
+    <input type="radio" name="lenguaje" value="css"> CSS <br>
+    <input type="radio" name="lenguaje" value="javascript"> JavaScript <br>
+    <input type="radio" name="lenguaje" value="jpg"> JPG
+
+    <h2>4. Selecciona los lenguajes de programación</h2>
+    <input type="checkbox" name="programacion" value="python"> Python <br>
+    <input type="checkbox" name="programacion" value="javascript"> JavaScript <br>
+    <input type="checkbox" name="programacion" value="html"> HTML
+
+    <h2>5. ¿Cuál es tu fecha de nacimiento?</h2>
+    <input type="date" id="respuesta5">
+
+    <br><br>
+
+    <button type="button" id="btnEnviar">Enviar respuestas</button>
+
+    <h1 id="puntaje">Total puntaje: 0</h1>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
