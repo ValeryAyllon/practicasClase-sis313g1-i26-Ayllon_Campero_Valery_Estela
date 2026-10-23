@@ -1,0 +1,29 @@
+[
+    
+    {
+        "name": "Juan",
+        "LastNmae": "Perez",
+        "address":{
+            "phone": 72400000,
+            "city": "potosi"
+        }
+    },
+    {
+        "name": "Maria",
+        "LastNmae": "Mamani",
+        "address":{
+            "phone": 7500000,
+            "city": "La Paz"
+        }
+
+    },
+    {
+        "name": "Pedro",
+        "LastNmae": "Condori",
+        "address":{
+            "phone": 7500000,
+            "city": "Sucre"
+        }
+    }
+
+]

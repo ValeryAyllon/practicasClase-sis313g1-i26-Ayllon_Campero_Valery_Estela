@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+form{
+    margin: 5px;
+}
+
+.btn {
+    border-radius: 5%;
+    border: rgb(245, 241, 241);
+}
+
+.btn-primary{
+    background-color: rgb(126, 9, 235);
+    border: blueviolet;
+}
+
+.btn:primary:hover{
+    background-color: rgb(61, 5, 113);
+}
+
+.btn-danger {
+    background-color: rgb(235, 88, 9);
+    border: rgb(235, 88, 9);
+}
+
+.btn-danger:hover{
+    background-color: rgb(241, 9, 235);
+}
+.container {
+    background-color:rgb(160, 0, 253) ;
+    border: rgb(132, 0, 255);
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 80px;
+    text-align: center;
+    font-size: larger;
+
+}
